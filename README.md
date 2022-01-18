@@ -69,7 +69,7 @@ Cliquez sur le bouton "Get your pack" et certifiez que vous êtes bien un étudi
 Git est installé sur les postes Linux du département informatique de l'IUT Montpellier-Sète. Voici comment l'installer sur votre machine en fonction de votre système d'exploitation :
 * Ubuntu ou une Debian : `sudo apt install git-all`
 * une autre distribution Linux : https://git-scm.com/download/linux
-* Windows : https://desktop.github.com/ - application gratuite proposée par GitHub qui vous permet d'installer le logiciel Git sous Windows et aussi une interface graphique appropriée
+* Windows : [Git for Windows](https://gitforwindows.org/)
 * Mac OS : https://git-scm.com/download/mac
 
 **Configuration locale de Git**
@@ -89,7 +89,7 @@ git config --global user.name "Choucroute Garnie"
 git config --global user.email choucroute.garnie@etu.umontpellier.fr
 ```
 
-#### [Tutoriel Git](https://gitlabinfo.iutmontp.univ-montp2.fr/valicov/tutoGit1ereAnnee) de l'IUT -- à faire obligatoirement avant de poursuivre avec les étapes ci-dessous.
+#### [Tutoriel Git](https://gitlabinfo.iutmontp.univ-montp2.fr/valicov/tutoGit1ereAnnee) de l'IUT -- à faire obligatoirement avant de poursuivre le TP
 
 Ultérieurement, lorsque vous aurez oublié tout ce que le tuto vous a appris, vous pourrez utiliser ce mini [document](https://www.lirmm.fr/~pvalicov/Cours/archives/Aix/M2104/Demarrer%20avec%20Git) qui résume les fonctionnalités principales de Git.
 
@@ -116,9 +116,9 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 
 ### Un petit Salut le Monde qui va bien !
 #### Exercice 1
-Dans la méthode principale de la classe `HelloWorld` faites afficher le message _"Salut le monde"_.
+Complétez la méthode principale de la classe `HelloWorld` (du répertoire [Exercice 1](Exercice1)) en faisant afficher le message _"Salut le monde"_.
 1. Dans un terminal, compilez, exécutez et vérifiez votre programme.
 2. Versionnez l'intégralité de votre travail avec `git add .` + `git commit`.
-3. Faites un `git push` sur le dépôt distant GitLab et comparez avec votre répertoire local. Quelle différence constatez-vous et pourquoi ?
+3. Faites un `git push` sur le dépôt distant GitLab et comparez avec votre répertoire local. Quelle différence constatez-vous entre votre dépôt local et celui distant ? Pourquoi ?
 
 En règle générale une séparation entre le code source et le byte code est nécessaire pour une meilleure lisibilité de votre programme. Ce qui est généralement conseillé c'est d'avoir au moins deux répertoires à la racine de votre projet. Par exemple `src` + `bin` ou encore `src` + `target`. Pour les différentes options de compilation : https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html
