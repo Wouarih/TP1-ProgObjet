@@ -8,8 +8,7 @@
 * **Enseignants:**
 [Marin Bougeret](mailto:marin.bougeret@umontpellier.fr),
 [Gaëlle Hisler](mailto:gaelle.hisler@umontpellier.fr),
-<!--[Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr),-->
-[Victor Poupet](mailto:victor.poupet@umontpellier.fr),
+<!--[Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr),-->[Victor Poupet](mailto:victor.poupet@umontpellier.fr),
 [Gilles Trombettoni](mailto:gilles.trombettoni@umontpellier.fr),
 [Petru Valicov](mailto:petru.valicov@umontpellier.fr)
 * Le [forum Piazza](https://piazza.com/class/kjifrxy1n0i3xa) de ce cours pour poser vos questions
@@ -91,7 +90,7 @@ git config --global user.name "Choucroute Garnie"
 git config --global user.email choucroute.garnie@etu.umontpellier.fr
 ```
 
-Passons au [tutoriel Git](https://gitlabinfo.iutmontp.univ-montp2.fr/valicov/tutoGit1ereAnnee) de l'IUT.
+**[Tutoriel Git](https://gitlabinfo.iutmontp.univ-montp2.fr/valicov/tutoGit1ereAnnee)** de l'IUT -- à faire obligatoirement avant de poursuivre avec les étapes ci-dessous.
 
 Ultérieurement, lorsque vous aurez oublié tout ce que le tuto vous a appris, vous pourrez utiliser ce mini [document](https://www.lirmm.fr/~pvalicov/Cours/archives/Aix/M2104/Demarrer%20avec%20Git) qui résume les fonctionnalités principales de Git.
 
@@ -100,7 +99,7 @@ Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'é
 
 Un dépôt vous sera créé __dev-objets/tp1-votreUsername__ contenant le fork du __dev-objets/tp1__. Le dépôt nouvellement créé sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Voici à quoi devrait rassembler l'entête de votre page GitLab en haut à gauche de la page (dans l'exemple le _username_ est _valicov_) :
 
-![](ressources/Fork_avec_classroom.png)
+<!--![](ressources/Fork_avec_classroom.png)-->
 
 Remarquez que ce fork privé sera automatiquement intégré dans l'organisation du cours : le groupe _Dev-Objets_. Ce qui implique que les enseignants du module seront automatiquement admins de votre dépôt et pourront collaborer avec vous. Cette façon de faire permet d'une part de centraliser et uniformiser les rendus de chaque étudiant et, d'autre part, aux enseignants de suivre et aider plus facilement chaque étudiant en interagissant directement sur son dépôt. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cette dernière partie on la verra plus tard...
 
