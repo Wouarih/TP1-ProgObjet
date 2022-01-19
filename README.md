@@ -4,7 +4,7 @@
 
 ### IUT Montpellier-Sète – Département Informatique
 
-* **Cours**: Support [ici](https://github.com/IUTInfoMontp-M2103/Ressources)
+* [**Support de cours**](https://gitlabinfo.iutmontp.univ-montp2.fr/dev-objets/Ressources)
 * **Enseignants:**
 [Marin Bougeret](mailto:marin.bougeret@umontpellier.fr),
 [Gaëlle Hisler](mailto:gaelle.hisler@umontpellier.fr),<!--[Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr),-->
