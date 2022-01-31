@@ -96,14 +96,14 @@ Ultérieurement, lorsque vous aurez oublié tout ce que le tuto vous a appris, v
 ### Création de votre fork du TP1
 Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitLab. Dans le groupe [_Dev-Objets_](https://gitlabinfo.iutmontp.univ-montp2.fr/dev-objets/) un sous-groupe qui vous est destiné a normalement été créé par les enseignants. Ce sous-groupe est privé (seuls vous et les enseignants y ont accès). Il contiendra tous les forks dédiés à vos TPs. Celui du TP1 y est normalement. Cette façon de faire permet d'une part de centraliser et uniformiser les rendus de chaque étudiant et, d'autre part, aux enseignants de suivre et aider plus facilement chaque étudiant en interagissant directement sur son dépôt.
 
-Vous allez cloner le fork GitLab '*dev-objets/tp1-votreUsername*' sur votre machine et travailler désormais localement tout en "versionnant" votre code et en poussant régulièrement vos réalisations.
+Vous allez cloner le fork GitLab '*dev-objets/votreUsername/tp1*' sur votre machine et travailler désormais localement tout en "versionnant" votre code et en poussant régulièrement vos réalisations.
 
 ### À faire pour chaque exercice
 Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modifications sur votre fork de la manière suivante (dans cet exemple on suppose que vous êtes sur la branche master) :
 ```sh
-~/tpPOO/tp1-VotreUsername$ git add fichiers_que_vous_avez_modifié
-~/tpPOO/tp1-VotreUsername$ git commit -m "Validation de l'exercice 1"
-~/tpPOO/tp1-VotreUsername$ git push origin master
+~/tpPOO/tp1$ git add fichiers_que_vous_avez_modifié
+~/tpPOO/tp1$ git commit -m "Validation de l'exercice 1"
+~/tpPOO/tp1$ git push origin master
 ```
 
 **Remarque importante** : Rappelez-vous qu'un dépôt contient uniquement les fichiers nécessaires pour qu'un collaborateur puisse reconstruire le projet dans son propre environnement, et surtout _rien de plus_. Donc aucune information personnelle, aucun résultat de compilation, aucune configuration de son propre environnement de travail, ...
